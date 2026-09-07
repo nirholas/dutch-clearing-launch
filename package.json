@@ -1,0 +1,30 @@
+{
+  "name": "dutch-clearing-launch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A descending-price launch enforced as a floor on what the pool will sell at, so a token opens at the price the first real buyer is willing to pay rather than the price the deployer guessed.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/dutch-clearing-launch.git"
+  },
+  "homepage": "https://dutch-clearing-launch.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "launch",
+    "auction",
+    "price-discovery",
+    "anti-snipe",
+    "oracle-free"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
