@@ -36,6 +36,7 @@ import {DutchClearingLaunchHook} from "src/hooks/DutchClearingLaunchHook.sol";
 contract DeployDutchClearingLaunch is Script {
     uint160 internal constant FLAGS = uint160(Hooks.AFTER_INITIALIZE_FLAG | Hooks.AFTER_SWAP_FLAG);
 
+
     function run() external {
         IPoolManager manager = Chains.poolManager(block.chainid);
         require(address(manager) != address(0), "no Uniswap v4 PoolManager known for this chain");

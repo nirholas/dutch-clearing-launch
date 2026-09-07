@@ -174,6 +174,40 @@ forge script script/Deploy.s.sol --rpc-url $RPC_URL --broadcast --verify</code><
       </p>
     </div>
   </section>
+
+  <section class="shell">
+    <h2 id="try">Try it</h2>
+    <p>
+      This is the hook running, not a picture of it. Connect a wallet on a chain it is deployed to, or bring the whole
+      stack up locally in one command and use it with no funds and no wallet risk at all.
+    </p>
+    <div class="demo" data-demo="dutch-clearing-launch">
+      <div class="panel panel--empty">
+        <p>Loading the demo… if this does not change, JavaScript is blocked and the demo cannot run.</p>
+      </div>
+    </div>
+    <details class="raw">
+      <summary>Run the whole thing locally</summary>
+      <pre><code>git clone --recurse-submodules https://github.com/nirholas/dutch-clearing-launch
+cd dutch-clearing-launch
+
+anvil &amp;
+forge script script/DeployLocal.s.sol --rpc-url http://127.0.0.1:8545 --broadcast \
+  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+node web/build.mjs &amp;&amp; npx serve web/dist</code></pre>
+      <p class="muted">
+        The deploy script writes <code>web/local.json</code> itself and the build merges it, so the page points at the
+        chain you just created without you editing anything. Point a wallet at
+        <code>http://127.0.0.1:8545</code> and every button on this page works.
+      </p>
+      <p class="muted">
+        Anvil's first account is pre-funded and its key is public by design. Never use it anywhere real.
+      </p>
+    </details>
+  </section>
+  <script type="application/json" id="deployments">{"chains":{},"errors":[{"type":"error","name":"BelowFloor","inputs":[{"name":"floorPriceX96","type":"uint256","internalType":"uint256"},{"name":"executionPriceX96","type":"uint256","internalType":"uint256"}]},{"type":"error","name":"FloorAboveStart","inputs":[]},{"type":"error","name":"HookNotImplemented","inputs":[]},{"type":"error","name":"InvalidDuration","inputs":[]},{"type":"error","name":"InvalidPool","inputs":[]},{"type":"error","name":"NotPoolManager","inputs":[]},{"type":"error","name":"PoolAlreadyInitialized","inputs":[]},{"type":"error","name":"PoolNotConfigured","inputs":[]},{"type":"error","name":"StartInThePast","inputs":[]}],"demo":{"panel":"guard","title":"The pool will not sell below its schedule","lede":"A descending floor. Buy below it and the pool refuses; wait and the floor comes to you. Selling is never restricted.","tryLabel":"Try to buy","tryOtherLabel":"Sell (never restricted)","calls":[{"name":"currentFloorX96","outputs":["uint256"],"reads":[{"label":"Floor right now","format":"q96"}]},{"name":"cleared","outputs":["bool"],"reads":[{"label":"Has cleared","format":"bool"}]}],"localDeploy":{"flags":"Hooks.AFTER_INITIALIZE_FLAG | Hooks.AFTER_SWAP_FLAG","config":"DutchClearingLaunchHook.Config({startPriceX96: uint160(4 * Q96), floorPriceX96: uint160(Q96 / 2), startTime: uint64(block.timestamp), duration: 3600, buyIsZeroForOne: false})","dynamicFee":false}}}</script>
+  <script type="module" src="/assets/demo.js"></script>
 </main>
 
 <footer class="foot">
