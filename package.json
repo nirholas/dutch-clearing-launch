@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A descending-price launch enforced as a floor on what the pool will sell at, so a token opens at the price the first real buyer is willing to pay rather than the price the deployer guessed.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/nirholas/dutch-clearing-launch.git"

@@ -7,7 +7,7 @@ A production Uniswap v4 hook. It holds no funds and takes no fee for itself. No 
 - **Site:** https://dutch-clearing-launch.pages.dev
 - **Catalogue:** https://hookforge.pages.dev
 - **Contract:** [`src/hooks/DutchClearingLaunchHook.sol`](src/hooks/DutchClearingLaunchHook.sol)
-- **Licence:** MIT
+- **Licence:** Apache-2.0
 
 ## How it works
 
