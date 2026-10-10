@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "dutch-clearing-launch"
+abstract: "A descending-price launch enforced as a floor on what the pool will sell at, so a token opens at the price the first real buyer is willing to pay rather than the price the deployer guessed."
+license: Apache-2.0
+repository-code: "https://github.com/nirholas/dutch-clearing-launch"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"

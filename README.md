@@ -1,5 +1,10 @@
 # DutchClearingLaunch
 
+<!-- three.ws:badges -->
+[![GitHub stars](https://img.shields.io/github/stars/nirholas/dutch-clearing-launch?style=flat&logo=github)](https://github.com/nirholas/dutch-clearing-launch/stargazers) [![License](https://img.shields.io/github/license/nirholas/dutch-clearing-launch?style=flat)](https://github.com/nirholas/dutch-clearing-launch/blob/HEAD/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/nirholas/dutch-clearing-launch?style=flat)](https://github.com/nirholas/dutch-clearing-launch/commits) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat)](https://github.com/nirholas/dutch-clearing-launch/pulls) [![AI agent friendly](https://img.shields.io/badge/AI%20agents-AGENTS.md%20%2B%20llms.txt-6d5dfc?style=flat)](https://github.com/nirholas/dutch-clearing-launch/blob/HEAD/AGENTS.md)
+<!-- /three.ws:badges -->
+
+
 **A descending-price launch enforced as a floor on what the pool will sell at, so a token opens at the price the first real buyer is willing to pay rather than the price the deployer guessed.**
 
 A production Uniswap v4 hook. It holds no funds and takes no fee for itself. No owner, no pause switch, no upgrade path.
@@ -128,3 +133,26 @@ Not affiliated with Uniswap Labs.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nirholas/dutch-clearing-launch&type=Date)](https://www.star-history.com/#nirholas/dutch-clearing-launch&Date)
+
+<!-- three.ws:growth -->
+## Support the project
+
+If dutch-clearing-launch saves you time, **[star it on GitHub](https://github.com/nirholas/dutch-clearing-launch)**. Stars are how other developers and AI agents find the repositories worth trusting, and they cost you one click.
+
+Know someone who would use it? [Post on X](https://twitter.com/intent/tweet?text=dutch-clearing-launch%3A%20A%20descending-price%20launch%20enforced%20as%20a%20floor%20on%20what%20the%20pool%20will%20sell%20at%2C%20so%20a%20token%20opens%20at&url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdutch-clearing-launch) · [Share on Bluesky](https://bsky.app/intent/compose?text=dutch-clearing-launch%3A%20A%20descending-price%20launch%20enforced%20as%20a%20floor%20on%20what%20the%20pool%20will%20sell%20at%2C%20so%20a%20token%20opens%20at%20https%3A%2F%2Fgithub.com%2Fnirholas%2Fdutch-clearing-launch) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdutch-clearing-launch) · [Submit to Hacker News](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdutch-clearing-launch&t=dutch-clearing-launch%3A%20A%20descending-price%20launch%20enforced%20as%20a%20floor%20on%20what%20the%20pool%20will%20sell%20at%2C%20so%20a%20token%20opens%20at) · [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdutch-clearing-launch&title=dutch-clearing-launch%3A%20A%20descending-price%20launch%20enforced%20as%20a%20floor%20on%20what%20the%20pool%20will%20sell%20at%2C%20so%20a%20token%20opens%20at)
+
+## Built for AI agents too
+
+Coding agents and LLM tooling can read this repo directly: [AGENTS.md](./AGENTS.md), [llms.txt](./llms.txt), [llms-full.txt](./llms-full.txt). Point an agent at `https://github.com/nirholas/dutch-clearing-launch` and it has the context it needs.
+
+## More from the same author
+
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme): the full catalog, grouped by topic
+- [three.ws](https://three.ws): the platform for 3D AI agents with Solana wallets, a skill marketplace and x402 payments
+- Questions or ideas: [open an issue](https://github.com/nirholas/dutch-clearing-launch/issues) or [start a discussion](https://github.com/nirholas/dutch-clearing-launch/discussions)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=nirholas/dutch-clearing-launch)](https://github.com/nirholas/dutch-clearing-launch/graphs/contributors)
+
+<!-- /three.ws:growth -->
