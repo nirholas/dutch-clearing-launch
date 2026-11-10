@@ -1,0 +1,19 @@
+{
+  "name": "dutch-clearing-launch",
+  "version": "1.0.0",
+  "description": "DutchClearingLaunchHook Uniswap v4 hook: build, test, configure and deploy it with a mined CREATE2 salt.",
+  "author": {
+    "name": "nirholas"
+  },
+  "repository": "https://github.com/nirholas/dutch-clearing-launch",
+  "license": "Apache-2.0",
+  "keywords": [
+    "uniswap-v4",
+    "hooks",
+    "solidity",
+    "foundry",
+    "launch",
+    "auction",
+    "price-discovery"
+  ]
+}
