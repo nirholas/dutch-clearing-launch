@@ -7,8 +7,9 @@
   "plugins": [
     {
       "name": "dutch-clearing-launch",
-      "source": "./",
+      "source": "./plugins/dutch-clearing-launch",
       "description": "DutchClearingLaunchHook Uniswap v4 hook: build, test, configure and deploy it with a mined CREATE2 salt.",
+      "category": "development",
       "tags": [
         "uniswap-v4",
         "hooks",
