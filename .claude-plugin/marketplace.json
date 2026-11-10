@@ -1,0 +1,23 @@
+{
+  "name": "dutch-clearing-launch",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "DutchClearingLaunchHook Uniswap v4 hook: build, test, configure and deploy it with a mined CREATE2 salt.",
+  "plugins": [
+    {
+      "name": "dutch-clearing-launch",
+      "source": "./",
+      "description": "DutchClearingLaunchHook Uniswap v4 hook: build, test, configure and deploy it with a mined CREATE2 salt.",
+      "tags": [
+        "uniswap-v4",
+        "hooks",
+        "solidity",
+        "foundry",
+        "launch",
+        "auction",
+        "price-discovery"
+      ]
+    }
+  ]
+}
